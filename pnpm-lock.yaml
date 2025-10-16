@@ -21,9 +21,6 @@ importers:
       '@types/node':
         specifier: ^22.18.10
         version: 22.18.10
-      add:
-        specifier: ^2.0.6
-        version: 2.0.6
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -155,9 +152,6 @@ packages:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
-
-  add@2.0.6:
-    resolution: {integrity: sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==}
 
   baseline-browser-mapping@2.8.16:
     resolution: {integrity: sha512-OMu3BGQ4E7P1ErFsIPpbJh0qvDudM/UuJeHgkAvfWe+0HFJCXh+t/l8L6fVLR55RI/UbKrVLnAXZSVwd9ysWYw==}
@@ -379,8 +373,6 @@ snapshots:
       undici-types: 6.21.0
 
   acorn@8.15.0: {}
-
-  add@2.0.6: {}
 
   baseline-browser-mapping@2.8.16: {}
 

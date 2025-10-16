@@ -12,7 +12,6 @@
     "@rsbuild/core": "^1.5.17",
     "@rsbuild/plugin-check-syntax": "^1.4.0",
     "@types/node": "^22.18.10",
-    "add": "^2.0.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {
