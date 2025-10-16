@@ -1,0 +1,21 @@
+{
+  "name": "zod-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.5.14",
+    "@rsbuild/plugin-check-syntax": "^1.4.0",
+    "@types/node": "^22.18.10",
+    "add": "^2.0.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  }
+}
