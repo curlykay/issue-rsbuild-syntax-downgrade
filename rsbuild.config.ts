@@ -5,6 +5,7 @@ import { pluginCheckSyntax } from "@rsbuild/plugin-check-syntax";
 export default defineConfig({
   source: {
     include: [path.dirname(require.resolve("zod"))],
+    // include: [/node_modules[\\/]zod[\\/]/],
   },
   plugins: [pluginCheckSyntax()],
   output: {
